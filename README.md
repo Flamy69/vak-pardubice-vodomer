@@ -44,8 +44,11 @@ zařadit ji do Energy / Water dashboardu.
 Závislosti:
 
 ```powershell
-pip install requests beautifulsoup4
+pip install requests beautifulsoup4 lxml
 ```
+
+(`lxml` je volitelný, ale výrazně rychlejší parser pro BeautifulSoup než
+vestavěný `html.parser`.)
 
 Spuštění (přihlašovací údaje **přes proměnné prostředí**, ne v souboru):
 
