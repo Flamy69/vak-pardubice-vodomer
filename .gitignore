@@ -1,0 +1,24 @@
+# Anonymní a citlivé soubory ze scrapingu portálu VAK
+after_login.html
+login.html
+meter.html
+measured*.html
+history*.html
+profile*.html
+*.har
+cookies.txt
+
+# Lokální tajemství
+secrets.yaml
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
